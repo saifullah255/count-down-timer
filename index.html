@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="setinput">
+            <input type="text" name="" id="setHours" placeholder="set hour">
+            <input type="text" name="" id="setMins" placeholder="set min">
+            <input type="text" name="" id="setSec" placeholder="set sec">
+        </div>
+
+
+        <div class="headings">
+            <h1 id="hours">00</h1>
+            <h1 id="min">00</h1>
+            <h1 id="sec">00</h1>
+        </div>
+        <br>
+
+        <br>
+        <div class="ssr-btn" id="ssr-btn">
+            <button onclick="setTime()" class="set-btn">Set</button>
+            <button onclick="start()" id="strt-btn">Start</button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
